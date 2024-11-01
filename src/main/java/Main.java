@@ -16,7 +16,7 @@ public class Main {
 		if(n==0) {
 			return 1;
 		}
-		return 1+digitTotal(n-1);
+		return 1+digitTotal(n/1);
 	}
 	public static int division(int a,int b) {
 		if(b==0) {
